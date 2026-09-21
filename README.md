@@ -34,3 +34,15 @@ Usov, I and Mezzenga, R. FiberApp: an Open-source Software for Tracking and Anal
 
 ## Running the application
 Execute `FiberApp.m` in matlab environment to open the software GUI.
+
+## Supported image formats
+`FiberApp -> Open Image` reads:
+
+| Format | Extension | Lateral scale | Height scale |
+| --- | --- | --- | --- |
+| NanoScope (Bruker/Veeco) | any (`*.001`, ...) | from the file header | from the file header |
+| Thermomicroscopes SPMLab | `*.flt` | from the file header | from the file header |
+| Gwyddion text export | `*.txt` | from the file header, otherwise entered by the user | from the file header, otherwise entered by the user |
+| Image file | `*.tif`, `*.tiff` | `Image -> Scale Bar` | arbitrary intensity units |
+
+Gwyddion text files are described in [docs/gwyddion-import.md](docs/gwyddion-import.md).
