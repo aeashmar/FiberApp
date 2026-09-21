@@ -1,3 +1,16 @@
+> This is a fork of [ivan-usov/FiberApp](https://github.com/ivan-usov/FiberApp) that adds
+> import of Gwyddion ASCII (`*.txt`) exports, so that AFM images levelled, filtered or
+> cropped in Gwyddion can be tracked directly, with their height and lateral calibration
+> preserved. See [docs/gwyddion-import.md](docs/gwyddion-import.md) for the file formats
+> accepted and the scaling conventions used. All other functionality is unchanged.
+>
+> Results obtained with this code require citation of the original publication:
+> Usov, I. and Mezzenga, R. *FiberApp: an Open-source Software for Tracking and Analyzing
+> Polymers, Filaments, Biomacromolecules, and Fibrous Objects.* Macromolecules **2015**,
+> 48, 1269–1280. [doi:10.1021/ma502264c](https://doi.org/10.1021/ma502264c)
+>
+> Gwyddion import contributed by Andrew Ashmar (Carnegie Mellon University).
+
 # FiberApp
 ## Description
 **FiberApp** is a software for tracking and analyzing biomacromolecules, polymers, filaments and fibrous objects.
